@@ -2,7 +2,7 @@
 //
 // Created by: Ain Jeong
 // Created on: May 2025
-// This file contains the JS functions for index.html
+// This file contains the JS functions for cookie clicker
 
 'use strict'
 
