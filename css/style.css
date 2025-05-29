@@ -11,13 +11,6 @@
   justify-content: center;
 }
 
-#startButton {
-  align-items: center;
-  width: 500px;
-  height: 400px;
-  font-size: 20px;
-}
-
 .mdl-layout__content {
   padding-left: 15pt;
   padding-right: 15pt;
