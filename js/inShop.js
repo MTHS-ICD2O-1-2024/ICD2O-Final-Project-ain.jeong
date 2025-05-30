@@ -14,7 +14,7 @@
 // showing the number of cookies
 window.onload = function () {
   // input
-  let cookieClick = localStorage.getItem('cookieClick');
+  const cookieClick = localStorage.getItem('cookieClick')
 
   // output
   document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
