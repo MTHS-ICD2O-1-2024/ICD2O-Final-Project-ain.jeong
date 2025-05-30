@@ -32,21 +32,25 @@
 
 .cookie-image img {
   height: auto;
-  width: 500px;
+  width: 400px;
   float: left;
+  padding-left: 20pt;
+  padding-right: 20pt;
 }
 
 .shop-image img {
   height: auto;
-  width: 300px;
+  width: 200px;
   float: right;
+  padding-right: 20pt;
 }
 
 .return-image img {
   height: auto;
-  width: 50px;
+  width: 100px;
   float: bottom;
   float: right;
+  padding-right: 20pt;
 }
 
 body {
