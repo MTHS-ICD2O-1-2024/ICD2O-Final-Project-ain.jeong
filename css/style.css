@@ -53,6 +53,14 @@
   padding-right: 20pt;
 }
 
+.buy-image img {
+  height: auto;
+  width: 150px;
+  float: left;
+  padding-left: 20pt;
+  padding-right: 20pt;
+}
+
 body {
   background-color: rgb(249 236 213);
 }

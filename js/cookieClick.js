@@ -10,7 +10,7 @@
  * This function counts the number of clicking of cookie
  */
 // eslint-disable-next-line no-unused-vars
-function cookieClicker () {
+function cookieClick () {
   // input
   let cookieClick = localStorage.getItem('cookieClick')
 
@@ -21,8 +21,9 @@ function cookieClicker () {
     cookieClick = 1
   }
 
+  // save in local storage
   localStorage.setItem('cookieClick', cookieClick)
 
   // output
-  document.getElementById('answer').innerHTML = cookieClick + ' Cookies'
+  document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 }
