@@ -6,3 +6,4 @@ The web application can be viewed at: [Link](https://mths-icd2o-1-2024.github.io
 
 Sources:<br/>
 + Images - [Flat Icon](https://www.flaticon.com/)
++ Code - [Cursor Format](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
