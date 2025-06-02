@@ -19,13 +19,3 @@ window.onload = function () {
   // output
   document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 }
-
-// buying the items
-function something () {
-  // buying the items
-}
-
-// item functions
-function somethingElse () {
-  // item functions
-}
