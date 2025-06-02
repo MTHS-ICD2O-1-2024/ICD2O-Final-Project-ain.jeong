@@ -7,9 +7,25 @@
 'use strict'
 
 /**
- * This function counts the number of clicking of cookie
+ * This function manages the shop
  */
 // eslint-disable-next-line no-unused-vars
-function cookieClicker () {
-  // shopt functions here
+
+// showing the number of cookies
+window.onload = function () {
+  // input
+  const cookieClick = localStorage.getItem('cookieClick')
+
+  // output
+  document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+}
+
+// buying the items
+function something () {
+  // buying the items
+}
+
+// item functions
+function somethingElse () {
+  // item functions
 }
