@@ -12,11 +12,12 @@
 // eslint-disable-next-line no-unused-vars
 function cookieClick () {
   // input
-  let cookieClick = localStorage.getItem('cookieClick')
+  let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
+  let cookieClickWithItem = Number(localStorage.getItem('cookieClickWithItem')) || 1
 
   // process
   if (cookieClick != null) {
-    cookieClick = Number(cookieClick) + 1
+    cookieClick += cookieClickWithItem
   } else {
     cookieClick = 1
   }

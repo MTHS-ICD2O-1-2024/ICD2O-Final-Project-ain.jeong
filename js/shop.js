@@ -12,13 +12,14 @@
 
 // eslint-disable-next-line no-unused-vars
 function buyHeartItem () {
-  let cookieClick = localStorage.getItem('cookieClick')
+  let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
   const heartItemPrice = 5
 
   if (cookieClick >= heartItemPrice) {
     cookieClick -= heartItemPrice
     localStorage.setItem('cookieClick', cookieClick)
     localStorage.setItem('boughtHeart', 'boughtItem')
+    localStorage.setItem('cookieClickWithItem', '2')
 
     // save the bought item
     localStorage.setItem('boughtItem', 'heart-cookie')
@@ -26,9 +27,8 @@ function buyHeartItem () {
     // update the number of cookies left
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
-    location.reload()
-
     alert('You bought the Heart Cookie!')
+    location.reload()
   } else {
     alert('Not enough cookies to buy this item.')
   }
@@ -36,13 +36,14 @@ function buyHeartItem () {
 
 // eslint-disable-next-line no-unused-vars
 function buyStarItem () {
-  let cookieClick = localStorage.getItem('cookieClick')
+  let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
   const starItemPrice = 10
 
   if (cookieClick >= starItemPrice) {
     cookieClick -= starItemPrice
     localStorage.setItem('cookieClick', cookieClick)
     localStorage.setItem('boughtStar', 'boughtItem')
+    localStorage.setItem('cookieClickWithItem', '5')
 
     // save the bought item
     localStorage.setItem('boughtItem', 'star-cookie')
@@ -50,9 +51,8 @@ function buyStarItem () {
     // update the number of cookies left
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
-    location.reload()
-
     alert('You bought the Star Cookie!')
+    location.reload()
   } else {
     alert('Not enough cookies to buy this item.')
   }
@@ -60,13 +60,14 @@ function buyStarItem () {
 
 // eslint-disable-next-line no-unused-vars
 function buySunglassesItem () {
-  let cookieClick = localStorage.getItem('cookieClick')
+  let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
   const sunglassesItemPrice = 15
 
   if (cookieClick >= sunglassesItemPrice) {
     cookieClick -= sunglassesItemPrice
     localStorage.setItem('cookieClick', cookieClick)
     localStorage.setItem('boughtSunglasses', 'boughtItem')
+    localStorage.setItem('cookieClickWithItem', '10')
 
     // save the bought item
     localStorage.setItem('boughtItem', 'sunglasses-cookie')
@@ -74,9 +75,8 @@ function buySunglassesItem () {
     // update the number of cookies left
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
-    location.reload()
-
     alert('You bought the Sunglasses Cookie!')
+    location.reload()
   } else {
     alert('Not enough cookies to buy this item.')
   }
