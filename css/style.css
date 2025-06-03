@@ -45,6 +45,13 @@ body {
   padding-right: 20pt;
 }
 
+.reset-image img {
+  height: auto;
+  width: 50px;
+  float: right;
+  padding-bottom: 20pt;
+}
+
 .return-image img {
   height: auto;
   width: 100px;
