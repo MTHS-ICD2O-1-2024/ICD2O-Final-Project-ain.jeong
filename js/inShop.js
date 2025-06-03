@@ -9,9 +9,8 @@
 /**
  * This function manages all the functions happening in the shop
  */
-// eslint-disable-next-line no-unused-vars
 
-// buy the heart item
+// eslint-disable-next-line no-unused-vars
 function buyHeartItem () {
   let cookieClick = localStorage.getItem('cookieClick')
   const heartItemPrice = 5
@@ -33,7 +32,7 @@ function buyHeartItem () {
   }
 }
 
-// buy the star items
+// eslint-disable-next-line no-unused-vars
 function buyStarItem () {
   let cookieClick = localStorage.getItem('cookieClick')
   const starItemPrice = 10
@@ -55,7 +54,7 @@ function buyStarItem () {
   }
 }
 
-// buy the sunglasses items
+// eslint-disable-next-line no-unused-vars
 function buySunglassesItem () {
   let cookieClick = localStorage.getItem('cookieClick')
   const sunglassesItemPrice = 15
