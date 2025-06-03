@@ -13,7 +13,7 @@
 function cookieClick () {
   // input
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
-  let cookieClickWithItem = Number(localStorage.getItem('cookieClickWithItem')) || 1
+  const cookieClickWithItem = Number(localStorage.getItem('cookieClickWithItem')) || 1
 
   // process
   if (cookieClick != null) {
