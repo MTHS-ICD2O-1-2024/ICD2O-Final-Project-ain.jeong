@@ -35,11 +35,11 @@ window.onload = function () {
   const starBought = localStorage.getItem('boughtStar')
   const sunglassesBought = localStorage.getItem('boughtSunglasses')
 
-  if (sunglassesBought === 'bought') {
+  if (sunglassesBought === 'boughtItem') {
     cookieImage.src = './images/item-sunglasses.png'
-  } else if (starBought === 'bought') {
+  } else if (starBought === 'boughtItem') {
     cookieImage.src = './images/item-star.png'
-  } else if (heartBought === 'bought') {
+  } else if (heartBought === 'boughtItem') {
     cookieImage.src = './images/item-heart.png'
   } else {
     cookieImage.src = './images/cookie.png'

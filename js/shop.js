@@ -18,7 +18,7 @@ function buyHeartItem () {
   if (cookieClick >= heartItemPrice) {
     cookieClick -= heartItemPrice
     localStorage.setItem('cookieClick', cookieClick)
-    localStorage.setItem('boughtHeart', 'bought')
+    localStorage.setItem('boughtHeart', 'boughtItem')
 
     // save the bought item
     localStorage.setItem('boughtItem', 'heart-cookie')
@@ -42,7 +42,7 @@ function buyStarItem () {
   if (cookieClick >= starItemPrice) {
     cookieClick -= starItemPrice
     localStorage.setItem('cookieClick', cookieClick)
-    localStorage.setItem('boughtStar', 'bought')
+    localStorage.setItem('boughtStar', 'boughtItem')
 
     // save the bought item
     localStorage.setItem('boughtItem', 'star-cookie')
@@ -66,7 +66,7 @@ function buySunglassesItem () {
   if (cookieClick >= sunglassesItemPrice) {
     cookieClick -= sunglassesItemPrice
     localStorage.setItem('cookieClick', cookieClick)
-    localStorage.setItem('boughtSunglasses', 'bought')
+    localStorage.setItem('boughtSunglasses', 'boughtItem')
 
     // save the bought item
     localStorage.setItem('boughtItem', 'sunglasses-cookie')
@@ -96,13 +96,13 @@ window.onload = function () {
   const starItemBought = localStorage.getItem('boughtStar')
   const sunglassesItemBought = localStorage.getItem('boughtSunglasses')
 
-  if (heartItemBought === 'bought') {
+  if (heartItemBought === 'boughtItem') {
     heartItemImage.src = './images/bought-item.png'
   }
-  if (starItemBought === 'bought') {
+  if (starItemBought === 'boughtItem') {
     starItemImage.src = './images/bought-item.png'
   }
-  if (sunglassesItemBought === 'bought') {
+  if (sunglassesItemBought === 'boughtItem') {
     sunglassesItemImage.src = './images/bought-item.png'
   }
 }
