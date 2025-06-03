@@ -26,6 +26,8 @@ function buyHeartItem () {
     // update the number of cookies left
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
+    location.reload()
+
     alert('You bought the Heart Cookie!')
   } else {
     alert('Not enough cookies to buy this item.')
@@ -48,6 +50,8 @@ function buyStarItem () {
     // update the number of cookies left
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
+    location.reload()
+
     alert('You bought the Star Cookie!')
   } else {
     alert('Not enough cookies to buy this item.')
@@ -69,6 +73,8 @@ function buySunglassesItem () {
 
     // update the number of cookies left
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+
+    location.reload()
 
     alert('You bought the Sunglasses Cookie!')
   } else {
