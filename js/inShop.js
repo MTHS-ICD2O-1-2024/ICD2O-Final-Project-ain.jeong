@@ -13,7 +13,7 @@
 
 // buy the heart item
 function buyHeartItem () {
-  let cookieClick = Number(localStorage.getItem('cookieClick'))
+  let cookieClick = localStorage.getItem('cookieClick')
   const heartItemPrice = 5
 
   if (cookieClick >= heartItemPrice) {
@@ -35,7 +35,7 @@ function buyHeartItem () {
 
 // buy the star items
 function buyStarItem () {
-  let cookieClick = Number(localStorage.getItem('cookieClick'))
+  let cookieClick = localStorage.getItem('cookieClick')
   const starItemPrice = 10
 
   if (cookieClick >= starItemPrice) {
@@ -57,7 +57,7 @@ function buyStarItem () {
 
 // buy the sunglasses items
 function buySunglassesItem () {
-  let cookieClick = Number(localStorage.getItem('cookieClick'))
+  let cookieClick = localStorage.getItem('cookieClick')
   const sunglassesItemPrice = 15
 
   if (cookieClick >= sunglassesItemPrice) {
