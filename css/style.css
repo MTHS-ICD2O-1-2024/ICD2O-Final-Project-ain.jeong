@@ -3,8 +3,8 @@
 * This file contains the CSS for index.html
 */
 
-.h1 {
-  float: center;
+body {
+  background-color: rgb(249 236 213);
 }
 
 .mdl-layout__header-row {
@@ -53,14 +53,30 @@
   padding-right: 20pt;
 }
 
+.item {
+  float: left;
+  padding-left: 30pt;
+  padding-right: 30pt;
+}
+
+.item-image img {
+  height: auto;
+  width: 200px;
+}
+
 .buy-image img {
   height: auto;
   width: 150px;
-  float: left;
-  padding-left: 20pt;
-  padding-right: 20pt;
 }
 
-body {
-  background-color: rgb(249 236 213);
+.item-name {
+  color: rgb(55 25 1);
+  padding-top: 10pt;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.item-description {
+  color: rgb(55 25 1);
+  font-size: 20pt;
 }
