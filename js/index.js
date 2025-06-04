@@ -52,4 +52,6 @@ function resetGame () {
   localStorage.clear()
   location.reload()
   alert('Game has been reset! Please refresh the screen to start again.')
-  }
+}
+
+window.resetGame = resetGame
