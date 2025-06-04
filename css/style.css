@@ -62,13 +62,14 @@ body {
 
 .item {
   float: left;
-  padding-left: 30pt;
-  padding-right: 30pt;
+  padding-left: 60pt;
+  width: 310px;
 }
 
 .item-image img {
   height: auto;
   width: 200px;
+  float: center;
 }
 
 .buy-image img {
