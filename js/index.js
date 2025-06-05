@@ -12,7 +12,7 @@
 // eslint-disable-next-line no-unused-vars
 function cookieClick () {
   // input
-  let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
+  let cookieClick = Number(localStorage.getItem('cookieClick'))
   const cookieClickWithItem = Number(localStorage.getItem('cookieClickWithItem')) || 1
 
   // process
@@ -46,3 +46,12 @@ window.onload = function () {
     cookieImage.src = './images/cookie.png'
   }
 }
+
+// reset the game
+function resetGame () {
+  localStorage.clear()
+  location.reload()
+  alert('Your game has been reset!')
+}
+
+window.resetGame = resetGame

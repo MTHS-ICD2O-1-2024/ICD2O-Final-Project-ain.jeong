@@ -11,9 +11,9 @@
  */
 
 // eslint-disable-next-line no-unused-vars
-function buyHeartItem () {
+function buyHeart () {
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
-  const heartItemPrice = 5
+  const heartItemPrice = 100
 
   if (cookieClick >= heartItemPrice) {
     cookieClick -= heartItemPrice
@@ -35,9 +35,9 @@ function buyHeartItem () {
 }
 
 // eslint-disable-next-line no-unused-vars
-function buyStarItem () {
+function buyStar () {
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
-  const starItemPrice = 10
+  const starItemPrice = 200
 
   if (cookieClick >= starItemPrice) {
     cookieClick -= starItemPrice
@@ -59,9 +59,9 @@ function buyStarItem () {
 }
 
 // eslint-disable-next-line no-unused-vars
-function buySunglassesItem () {
+function buySunglasses () {
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
-  const sunglassesItemPrice = 15
+  const sunglassesItemPrice = 999
 
   if (cookieClick >= sunglassesItemPrice) {
     cookieClick -= sunglassesItemPrice
