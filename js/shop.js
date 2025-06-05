@@ -11,7 +11,7 @@
  */
 
 // eslint-disable-next-line no-unused-vars
-function buyHeartItem () {
+function buyHeart () {
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
   const heartItemPrice = 100
 
@@ -35,7 +35,7 @@ function buyHeartItem () {
 }
 
 // eslint-disable-next-line no-unused-vars
-function buyStarItem () {
+function buyStar () {
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
   const starItemPrice = 200
 
@@ -59,7 +59,7 @@ function buyStarItem () {
 }
 
 // eslint-disable-next-line no-unused-vars
-function buySunglassesItem () {
+function buySunglasses () {
   let cookieClick = Number(localStorage.getItem('cookieClick')) || 0
   const sunglassesItemPrice = 999
 
