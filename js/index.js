@@ -47,11 +47,11 @@ window.onload = function () {
   }
 }
 
-// resetting the game
+// reset the game
 function resetGame () {
   localStorage.clear()
   location.reload()
-  alert('Game has been reset! Please refresh the screen to start again.')
+  alert('Your game has been reset!')
 }
 
 window.resetGame = resetGame
