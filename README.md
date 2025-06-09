@@ -6,4 +6,4 @@ The web application can be viewed at: [Link](https://mths-icd2o-1-2024.github.io
 
 Sources:<br/>
 + Images:<br/>- [Flat Icon](https://www.flaticon.com/)
-+ Code:<br/>- [Cursor Format](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)<br/>- [Automatic Page Refresh](https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/)
++ Code:<br/>- [Cursor Format](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)<br/>- [Automatic Page Refresh](https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/)<br/>- [Reset Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear)
