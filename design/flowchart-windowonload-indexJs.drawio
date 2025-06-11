@@ -7,8 +7,11 @@
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="170" y="90" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="window.onload = function () in index.js&lt;div&gt;(wearing the bought items)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="3" value="window.onload = function () in index.js&lt;div&gt;(wearing the bought items)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="105" y="50" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="170" width="220" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
