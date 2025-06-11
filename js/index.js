@@ -49,6 +49,7 @@ window.onload = function () {
 
 // reset the game
 function resetGame () {
+  // reset local storage: https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
   localStorage.clear()
   location.reload()
   alert('Your game has been reset!')

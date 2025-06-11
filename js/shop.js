@@ -28,6 +28,7 @@ function buyHeart () {
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
     alert('You bought the Heart Cookie!')
+    // automatic page refresh: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
     location.reload()
   } else {
     alert('Not enough cookies to buy this item.')
@@ -52,6 +53,7 @@ function buyStar () {
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
     alert('You bought the Star Cookie!')
+    // automatic page refresh: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
     location.reload()
   } else {
     alert('Not enough cookies to buy this item.')
@@ -76,6 +78,7 @@ function buySunglasses () {
     document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
 
     alert('You bought the Sunglasses Cookie!')
+    // automatic page refresh: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
     location.reload()
   } else {
     alert('Not enough cookies to buy this item.')
