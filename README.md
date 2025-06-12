@@ -1,5 +1,6 @@
 # ICD2O-Final-Project
 
+<img scr="./images/cookie.gif" alt="cookie gif" width="200px"><br/>
 This is the cookie clicker game with the store!
 
 The web application can be viewed at: [Link](https://mths-icd2o-1-2024.github.io/ICD2O-Final-Project-ain.jeong/) 
