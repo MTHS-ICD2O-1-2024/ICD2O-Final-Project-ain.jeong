@@ -25,7 +25,8 @@ function buyHeart () {
     localStorage.setItem('boughtItem', 'heart-cookie')
 
     // update the number of cookies left
-    document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+    document.getElementById('number-of-cookies').innerHTML =
+      cookieClick + ' Cookies'
 
     alert('You bought the Heart Cookie!')
     // automatic page refresh: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
@@ -50,7 +51,8 @@ function buyStar () {
     localStorage.setItem('boughtItem', 'star-cookie')
 
     // update the number of cookies left
-    document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+    document.getElementById('number-of-cookies').innerHTML =
+      cookieClick + ' Cookies'
 
     alert('You bought the Star Cookie!')
     // automatic page refresh: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
@@ -75,7 +77,8 @@ function buySunglasses () {
     localStorage.setItem('boughtItem', 'sunglasses-cookie')
 
     // update the number of cookies left
-    document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+    document.getElementById('number-of-cookies').innerHTML =
+      cookieClick + ' Cookies'
 
     alert('You bought the Sunglasses Cookie!')
     // automatic page refresh: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
@@ -88,7 +91,8 @@ function buySunglasses () {
 window.onload = function () {
   // showing the number of cookies
   const cookieClick = localStorage.getItem('cookieClick')
-  document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+  document.getElementById('number-of-cookies').innerHTML =
+    cookieClick + ' Cookies'
 
   // update bought items images
   const heartItemImage = document.getElementById('item-heart-image')
