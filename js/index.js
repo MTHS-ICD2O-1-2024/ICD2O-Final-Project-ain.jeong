@@ -13,7 +13,8 @@
 function cookieClick () {
   // input
   let cookieClick = Number(localStorage.getItem('cookieClick'))
-  const cookieClickWithItem = Number(localStorage.getItem('cookieClickWithItem')) || 1
+  const cookieClickWithItem =
+    Number(localStorage.getItem('cookieClickWithItem')) || 1
 
   // process
   if (cookieClick != null) {
@@ -26,7 +27,8 @@ function cookieClick () {
   localStorage.setItem('cookieClick', cookieClick)
 
   // output
-  document.getElementById('number-of-cookies').innerHTML = cookieClick + ' Cookies'
+  document.getElementById('number-of-cookies').innerHTML =
+    cookieClick + ' Cookies'
 }
 
 // wearing the bought items
